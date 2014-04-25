@@ -42,7 +42,7 @@ def main(argv):
     if itemCount == None:
         itemCount = 1000000
     if number == None:
-        number = 1000000 / itemCount
+        number = max(1, 1000000 / itemCount)
     if minInt == None:
         minInt = 1
     if maxInt == None:
@@ -65,6 +65,8 @@ def main(argv):
         algs = ['dupl_eat', 'dupl_utdemir', 'dupl_lthaulow', 'dupl_pmcguire', 'dupl_ivazques_abrams', 'dupl_rbespal']
     else: # with more than 1000 some algorithms are slow
         algs = ['dupl_pmcguire', 'dupl_ivazques_abrams', 'dupl_rbespal']
+    
+    print "Testing algorithm on the list of", itemCount, "items using", number, "loops"
     
     for alg in algs:
         print "Algorithm:", alg
