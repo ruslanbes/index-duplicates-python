@@ -23,7 +23,7 @@ def testalg(alg, arr):
 def main(argv):
     itemCount = number = maxInt = minInt = displayLists = allAlgs = None
     
-    opts, args = getopt.getopt(argv,'i:t:n:x:d')
+    opts, args = getopt.getopt(argv,'i:t:n:x:da')
     for opt, arg in opts:
         if opt == '-i':
             itemCount = int(arg)
