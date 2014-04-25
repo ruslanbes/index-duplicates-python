@@ -15,6 +15,6 @@ Return: {A: [0, 2]}
 Benchmarking
 -----------------------
 To do a benchmark, download both testdupl.py and timetestdupl.py and run `python timetestdupl.py`
-The algrothms in testdupl.py are the ones mentioned in [the question on the Stackoverflow](http://stackoverflow.com/questions/5419204/index-of-duplicates-items-in-a-python-list)
+The algorithms in testdupl.py are the ones mentioned in [the question on the Stackoverflow](http://stackoverflow.com/questions/5419204/index-of-duplicates-items-in-a-python-list)
 
 You can change various commandline options. Check the comment in the beginning of the script
